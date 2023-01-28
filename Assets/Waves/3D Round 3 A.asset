@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15e9968fed50c7a4393af572dc88ceeb, type: 3}
+  m_Name: 3D Round 3 A
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 3580544046569328722, guid: 9df74dd2a6b7d0c4188c2446ece79dc0, type: 3}
+  pathPrefab: {fileID: 25485865121221239, guid: c67ba3f9cc5e6dd46a65c3c0227365c3, type: 3}
+  timeBetweenSpawns: 0.2
+  timeUntilNextWave: 0.3
+  minTimeBetweenShots: 0.2
+  maxTimeBetweenShots: 1
+  numberOfEnemies: 30
+  moveSpeed: 25
+  canShoot: 1
